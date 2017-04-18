@@ -1,4 +1,4 @@
-#Welcome to Cinnamon!
+# Welcome to Cinnamon!
 
 Cinnamon is a Force.com app that enables you to build and run Selenium tests to validate your custom UI pages with Visualforce or Javascript in your Salesforce organization.
 
@@ -11,13 +11,13 @@ With Cinnamon, you can
 
 Before you can use Cinnamon, you'll need to install, setup and configure Cinnamon.  Please follow the instruction below to install and set up Cinnamon in your Salesforce organization.
 
-##Install
+## Install
 Cinnamon requires you to install the following package
 
 * Install the [Cinnamon package on a Developer Edition Org] (https://login.salesforce.com/packaging/installPackage.apexp?p0=04td0000000N4Fs)
 * Install the [Cinnamon package on a Sandbox Org] (https://test.salesforce.com/packaging/installPackage.apexp?p0=04td0000000N4Fs)
 
-##Set Up Cinnamon
+## Set Up Cinnamon
 Follow these steps to set up Cinnamon in your organization.
 
 1. Select **Cinnamon** from App drop-down list
@@ -41,7 +41,7 @@ After authentication is completed, you'll see Cinnamon being connected to your O
 
 Now, you are set up and ready to run a Cinnamon test.
 
-##Run a Cinnamon Test
+## Run a Cinnamon Test
 1. Go to **Setup -> Develop -> Apex Classes**
 2. Create the PageObject class [NewAccountPageObject](https:///github.com/yudiatsfdc/cinnamon/blob/master/src/classes/NewAccountPageObject.cls)
 3. Create the Visualforce Page [NewAccountPage](https://github.com/yudiatsfdc/cinnamon/blob/master/src/pages/NewAccountPage.page)
@@ -53,5 +53,5 @@ Now, you are set up and ready to run a Cinnamon test.
 7. Click the **Passed** link to view the test execution detail
  ![](https://raw.githubusercontent.com/forcedotcom/cinnamon/master/images/testdetail.png)
 
-##Log and Track Issues and Bugs
+## Log and Track Issues and Bugs
 Use [Github Issues](https://github.com/forcedotcom/Cinnamon/issues) to log and track issues and bugs.
